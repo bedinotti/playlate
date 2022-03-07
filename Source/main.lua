@@ -1,3 +1,5 @@
+import "lifecycle"
+
 local gfx = playdate.graphics
 
 gfx.setColor(gfx.kColorBlack)
