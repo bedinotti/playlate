@@ -3,6 +3,7 @@
 
 Use this template as the starting point for your next Playdate game. It builds off of the `Game Template` provided in [the Playdate SDK](https://play.date/dev/) and adds:
 
+- The [recommended folder structure](https://sdk.play.date/1.9.0/Inside%20Playdate.html#_structuring_your_project) for Playdate games
 - Default callbacks for button inputs
 - Default callbacks for crank inputs
 - Default callbacks for lifecycle events
