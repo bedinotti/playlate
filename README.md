@@ -6,3 +6,8 @@ Use this template as the starting point for your next Playdate game. It builds o
 - Default callbacks for button inputs
 - Default callbacks for crank inputs
 - Default callbacks for lifecycle events
+
+## How to Use
+This repo is a GitHub Template. You should be able to use it to start your own game just by clicking "Use this template" in the top right.
+
+For more information, see [Creating a Repository from a Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
