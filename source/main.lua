@@ -1,6 +1,6 @@
-import "lifecycle"
 import "button"
 import "crank"
+import "lifecycle"
 
 local gfx = playdate.graphics
 
