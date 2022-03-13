@@ -4,24 +4,32 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "Build and run",
+            "label": "Build and Run",
             "type": "shell",
-            "command": "make build"
+            "command": "make build",
+            "problemMatcher": [],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         },
         {
             "label": "Run",
             "type": "shell",
-            "command": "make run"
+            "command": "make run",
+            "problemMatcher": []
         },
         {
             "label": "Compile",
             "type": "shell",
-            "command": "make compile"
+            "command": "make compile",
+            "problemMatcher": []
         },
         {
             "label": "Clean",
             "type": "shell",
-            "command": "make clean"
+            "command": "make clean",
+            "problemMatcher": []
         },
     ]
 }
