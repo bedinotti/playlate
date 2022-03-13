@@ -1,6 +1,10 @@
--- CoreLibs imports
+-- Common CoreLibs imports.
+import "CoreLibs/object"
+import "CoreLibs/graphics"
+import "CoreLibs/sprites"
 import "CoreLibs/timer"
 
+-- Project imports
 import "button"
 import "crank"
 import "lifecycle"
