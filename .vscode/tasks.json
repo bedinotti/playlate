@@ -11,7 +11,7 @@
                 "owner": "lua",
                 "fileLocation": ["relative", "${workspaceFolder}"],
                 "pattern": {
-                    // error: Source/main.lua:14: '>' expected near 'st'
+                    // Example: error: Source/main.lua:14: '>' expected near 'st'
                     "regexp": "^(warning|error): (.*):(\\d+):\\s+(.*)$",
                     "severity": 1,
                     "file": 2,
