@@ -6,7 +6,8 @@ import "crank"
 import "lifecycle"
 import "simulator"
 
-local gfx = playdate.graphics
+-- Use common shorthands for playdate code
+local gfx <const> = playdate.graphics
 
 gfx.setColor(gfx.kColorBlack)
 
