@@ -1,3 +1,6 @@
+-- CoreLibs imports
+import "CoreLibs/timer"
+
 import "button"
 import "crank"
 import "lifecycle"
@@ -16,4 +19,9 @@ function playdate.update()
     -- is generally what you want, if you're using sprites.
     -- See https://sdk.play.date/1.9.1/#f-graphics.sprite.update for more info
     gfx.sprite.update()
+
+    -- Update all timers once per frame. This is required if you're using
+    -- timers in your game.
+    -- See https://sdk.play.date/1.9.1/#f-timer.updateTimers for more info
+    playdate.timer.updateTimers()
 end
