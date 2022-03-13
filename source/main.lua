@@ -13,8 +13,20 @@ import "simulator"
 -- Use common shorthands for playdate code
 local gfx <const> = playdate.graphics
 
-gfx.setColor(gfx.kColorBlack)
+-- By convention, most games need to perform some initial setup when they're
+-- initially launched. Perform that setup here.
+--
+-- Note: This will be called exactly once. If you're looking to do something
+-- whenever the game is resumed from the background, see playdate.gameWillResume
+-- in lifecycle.lua
+function gameDidLaunch()
+    print(playdate.metadata.name .. " launched!")
 
+    gfx.setBackgroundColor(gfx.kColorBlack)
+end
+gameDidLaunch()
+
+-- This update method is called once per frame.
 function playdate.update()
     -- Example code. Draw a full-screen rectangle and the frames per second
     gfx.fillRect(0, 0, 400, 240)
