@@ -34,7 +34,17 @@
             "label": "Compile",
             "type": "shell",
             "command": "make compile",
-            "problemMatcher": []
+            "problemMatcher": {
+                "owner": "lua",
+                "fileLocation": ["relative", "${workspaceFolder}"],
+                "pattern": {
+                    "regexp": "^(warning|error): (.*):(\\d+):\\s+(.*)$",
+                    "severity": 1,
+                    "file": 2,
+                    "line": 3,
+                    "message": 4
+                }
+            },
         },
         {
             "label": "Clean",
