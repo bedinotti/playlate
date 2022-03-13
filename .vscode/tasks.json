@@ -4,9 +4,24 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "build",
+            "label": "Build and run",
             "type": "shell",
             "command": "make build"
-        }
+        },
+        {
+            "label": "Run",
+            "type": "shell",
+            "command": "make run"
+        },
+        {
+            "label": "Compile",
+            "type": "shell",
+            "command": "make compile"
+        },
+        {
+            "label": "Clean",
+            "type": "shell",
+            "command": "make clean"
+        },
     ]
 }
