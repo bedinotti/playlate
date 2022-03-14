@@ -7,7 +7,12 @@ local prefix = "[Crank] "
 --- @param change number How much the crank moved, in degrees. Negative values are anti-clockwise.
 --- @param acceleratedChange number How much the crank moved, scaled by how fast it was moved.
 function playdate.cranked(change, acceleratedChange)
-	print(prefix .. string.format("Crank rotated %.4f degrees clockwise (%.4f degrees accelerated).", change, acceleratedChange))
+	local log = string.format(
+		"Crank rotated %.4f degrees clockwise (%.4f degrees accelerated).",
+		change,
+		acceleratedChange
+	)
+	print(prefix .. log)
 end
 
 --- Called when the crank is docked.
