@@ -3,14 +3,29 @@
 
 local prefix = "[Simulator] "
 
+--- Lets you act on keyboard key presses when running in the Simulator ONLY.
+--- These can be useful for adding debugging functions that can be enabled
+--- via your keyboard.
+---
+--- @param key string The character pressed on the keyboard, if unused by the Simulator.
 function playdate.keyPressed(key)
 	print(prefix .. string.format("Pressed %s key", key))
 end
 
+--- Lets you act on keyboard key releases when running in the Simulator ONLY.
+--- These can be useful for adding debugging functions that can be enabled
+--- via your keyboard.
+---
+--- @param key string The character released on the keyboard, if unused by the Simulator.
 function playdate.keyReleased(key)
 	print(prefix .. string.format("Released %s key", key))
 end
 
+--- Called immediately after `playdate.update()`, any drawing performed during
+--- this callback is overlaid on the display in 50% transparent red (or another
+--- color selected with `playdate.setDebugDrawColor()`).
+---
+--- White pixels are drawn in the debugDrawColor. Black pixels are transparent.
 function playdate.debugDraw()
 	playdate.graphics.pushContext()
 	-- Change the color of all our debug drawing. Default is red
