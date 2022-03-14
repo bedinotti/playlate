@@ -19,7 +19,7 @@ local gfx <const> = playdate.graphics
 -- Note: This will be called exactly once. If you're looking to do something
 -- whenever the game is resumed from the background, see playdate.gameWillResume
 -- in lifecycle.lua
-function gameDidLaunch()
+local function gameDidLaunch()
     print(playdate.metadata.name .. " launched!")
 
     gfx.setBackgroundColor(gfx.kColorBlack)
