@@ -4,6 +4,7 @@
 Use this template to explore the [Playdate SDK](https://play.date/dev/) and get
 to building your game faster.
 
+
 ## How to Use
 
 Use this project to get started, then add your code and/or remove the bits you don't need. You can either use this template:
@@ -12,13 +13,11 @@ Use this project to get started, then add your code and/or remove the bits you d
 - by downloading the zip file for this repo.
 
 ### On GitHub
-
 This repo is a GitHub Template. Click "Use this template" in the top right to
 create your own repository based off of the code here. See [Creating a Repository from a Template](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template)
 for more information.
 
 ### From ZIP File
-
 You can also download a zip of this repository and start there. Head on over to
 [the Releases] area of this repo and download the latest version. Or, if you're
 feeling brave, download the latest by clicking `Code > Download ZIP`.
