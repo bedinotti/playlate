@@ -34,5 +34,10 @@ function playdate.debugDraw()
 
 	-- Then perform anything you'd like overlayed on the screen
 	-- playdate.graphics.drawRect(20, 20, 150, 100)
+
+	-- To show text, you need to change the draw mode. Default text is drawn as
+	-- black, which is treated as transparent in `debugDraw`
+	-- playdate.graphics.setImageDrawMode(playdate.graphics.kDrawModeFillWhite)
+	-- playdate.graphics.drawText("hello", 0, 10)
 	playdate.graphics.popContext()
 end
