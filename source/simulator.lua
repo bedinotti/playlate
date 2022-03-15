@@ -1,7 +1,7 @@
 -- This file contains methods that are only called when running in the Simulator.
 -- See https://sdk.play.date/1.9.1/#_simulator_debug_callbacks for more information
 
-local prefix = "[Simulator] "
+local prefix <const> = "[Simulator] "
 
 --- Lets you act on keyboard key presses when running in the Simulator ONLY.
 --- These can be useful for adding debugging functions that can be enabled
