@@ -1,7 +1,7 @@
 -- All the callbacks for button presses.
 -- See https://sdk.play.date/1.9.1/Inside%20Playdate.html#buttonCallbacks for more information
 
-local prefix = "[Button] "
+local prefix <const> = "[Button] "
 
 --
 -- A Button

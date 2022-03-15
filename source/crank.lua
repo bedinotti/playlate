@@ -1,7 +1,7 @@
 -- All the callbacks for the crank.
 -- See https://sdk.play.date/1.9.1/Inside%20Playdate.html#_crank_callbacks for more information
 
-local prefix = "[Crank] "
+local prefix <const> = "[Crank] "
 
 --- Called when the crank moves.
 --- @param change number How much the crank moved, in degrees. Negative values are anti-clockwise.

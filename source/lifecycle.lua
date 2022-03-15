@@ -1,7 +1,7 @@
 -- All callbacks for the app and game lifecycle.
 -- See https://sdk.play.date/1.9.1/Inside%20Playdate.html#game-lifecycle for more information
 
-local prefix = "[Lifecycle] "
+local prefix <const> = "[Lifecycle] "
 
 --
 -- System lifecycle callbacks
