@@ -4,4 +4,4 @@ description=A basic game template.
 bundleID=com.yourcompany.TemplateGame
 version=1.0
 buildNumber=100
-imagePath=SystemAssets
+imagePath=system-assets
