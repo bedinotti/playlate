@@ -1,10 +1,8 @@
-std = {
-    globals = {
-        "playdate"
-    },
-    read_globals = {
-        "import",
-        "print",
-        "string"
-    }
+std = "lua54"
+globals = {
+    "playdate",
+    "game"
+}
+read_globals = {
+    "import"
 }
