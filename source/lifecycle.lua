@@ -1,5 +1,5 @@
 -- All callbacks for the app and game lifecycle.
--- See https://sdk.play.date/1.9.1/Inside%20Playdate.html#game-lifecycle for more information
+-- See https://sdk.play.date/1.9.3/Inside%20Playdate.html#game-lifecycle for more information
 
 local prefix <const> = "[Lifecycle] "
 
@@ -8,7 +8,7 @@ local prefix <const> = "[Lifecycle] "
 --
 
 --- Called before the system pauses the game.
---- This is a good time to update the [menu image](https://sdk.play.date/1.9.1/Inside%20Playdate.html#f-setMenuImage).
+--- This is a good time to update the [menu image](https://sdk.play.date/1.9.3/Inside%20Playdate.html#f-setMenuImage).
 function playdate.gameWillPause()
 	print(prefix .. "Game will pause...")
 end

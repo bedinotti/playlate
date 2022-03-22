@@ -34,11 +34,11 @@ function playdate.update()
 
     -- Update and draw all sprites. Calling this method in playdate.update
     -- is generally what you want, if you're using sprites.
-    -- See https://sdk.play.date/1.9.1/#f-graphics.sprite.update for more info
+    -- See https://sdk.play.date/1.9.3/#f-graphics.sprite.update for more info
     gfx.sprite.update()
 
     -- Update all timers once per frame. This is required if you're using
     -- timers in your game.
-    -- See https://sdk.play.date/1.9.1/#f-timer.updateTimers for more info
+    -- See https://sdk.play.date/1.9.3/#f-timer.updateTimers for more info
     playdate.timer.updateTimers()
 end

@@ -29,7 +29,7 @@ This builds off of the "Game Template" project provided in
 [the Playdate SDK](https://play.date/dev/) and adds a few nifty features.
 
 ### Standardized Structure
-This template uses the [recommended folder structure](https://sdk.play.date/1.9.1/Inside%20Playdate.html#_structuring_your_project)
+This template uses the [recommended folder structure](https://sdk.play.date/1.9.3/Inside%20Playdate.html#_structuring_your_project)
 for Playdate games. Empty folders are preserved with an empty `.gitkeep` file
 that can be deleted if you'd like.
 
