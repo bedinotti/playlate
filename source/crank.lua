@@ -1,5 +1,5 @@
 -- All the callbacks for the crank.
--- See https://sdk.play.date/1.9.1/Inside%20Playdate.html#_crank_callbacks for more information
+-- See https://sdk.play.date/1.9.3/Inside%20Playdate.html#_crank_callbacks for more information
 
 local prefix <const> = "[Crank] "
 

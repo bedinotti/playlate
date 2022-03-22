@@ -29,7 +29,7 @@ This builds off of the "Game Template" project provided in
 [the Playdate SDK](https://play.date/dev/) and adds a few nifty features.
 
 ### Standardized Structure
-This template uses the [recommended folder structure](https://sdk.play.date/1.9.1/Inside%20Playdate.html#_structuring_your_project)
+This template uses the [recommended folder structure](https://sdk.play.date/1.9.3/Inside%20Playdate.html#_structuring_your_project)
 for Playdate games. Empty folders are preserved with an empty `.gitkeep` file
 that can be deleted if you'd like.
 
@@ -50,9 +50,8 @@ goodies too:
 - Updated settings to work with the [lua-language-server extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua).
 
 ### GitHub `luacheck` Action
-This also ships with a GitHub Action that runs `luacheck` on your code before
-merging to the `main` branch.
-
+This also ships with a GitHub Action that runs [the `luacheck` code linter](https://github.com/lunarmodules/luacheck)
+on your code before merging to the `main` branch.
 
 ## License
 
