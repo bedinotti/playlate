@@ -50,9 +50,8 @@ goodies too:
 - Updated settings to work with the [lua-language-server extension](https://marketplace.visualstudio.com/items?itemName=sumneko.lua).
 
 ### GitHub `luacheck` Action
-This also ships with a GitHub Action that runs `luacheck` on your code before
-merging to the `main` branch.
-
+This also ships with a GitHub Action that runs [the `luacheck` code linter](https://github.com/lunarmodules/luacheck)
+on your code before merging to the `main` branch.
 
 ## License
 
